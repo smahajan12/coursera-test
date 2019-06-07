@@ -1,0 +1,87 @@
+/* Header Styles here. */
+#header-nav {
+  background-color: #dd99ff;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #002b80;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Verdana, sans-serif;
+  color: #002b80;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin:0;
+  line-height: .75;
+}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color:#002b80;
+    text-align: center;
+    background: #f2e6ff;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+/* Header styles end */
+
+/* Main body styles */
+#main-content > h1{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: #002b80;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.menu-tile {
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #002b80;
+  background-color: #eeccff;  
+}
+span{ /* this is menu heading */
+  font-family: Verdana, sans-serif;
+  color: #002b80;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  float: right;
+}
+section{ /* filler text in each menu tile */
+	padding: 15px;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	color: #002b80;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+.menu-tile {
+    width: 90%;
+    margin: 0 auto 15px;
+  }
+}
+/********** Super extra small devices Only (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ .col-xxs-12{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:0 auto 15px;
+  float: left;
+  width: 90%;
+  }
+}
